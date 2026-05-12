@@ -25,3 +25,11 @@ The system achieves ~80% accuracy in answering user queries.
 
 ![Pickup by Hour](Conceptual_Framework.png)
 
+-Dataset
+
+Source: Kaggle
+
+https://www.kaggle.com/code/markmedhat/laptop-price-data-analysis/comments#2838660-
+
+Total Records: 1303 laptops
+
