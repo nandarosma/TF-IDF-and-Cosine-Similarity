@@ -21,6 +21,10 @@ The system achieves ~80% accuracy in answering user queries.
 4. Fast and lightweight implementation
 5. Fallback response for unknown queries
 
+-Tools & Technologies
+
+Python, Pandas, Scikit-learn, NLTK, Telegram Bot API
+
 -How It Works
 
 ![Pickup by Hour](Conceptual_Framework.png)
@@ -33,3 +37,56 @@ https://www.kaggle.com/code/markmedhat/laptop-price-data-analysis/comments#28386
 
 Total Records: 1303 laptops
 
+![Pickup by Hour](Dataset.png)
+
+-Methods
+
+1. TF-IDF
+
+Used to assign weights to words based on their frequency and importance in documents.
+
+2. Cosine Similarity
+
+Used to measure similarity between:
+
+User query, Laptop data
+
+Similarity score:
+
+Close to 1 → highly similar, Close to 0 → not similar
+
+-Workflow
+
+1. User inputs a query
+2. Text preprocessing (tokenization & normalization)
+3. TF-IDF vectorization
+4. Compute Cosine Similarity
+5. Retrieve top matching laptops
+
+-Chatbot Implementation
+
+Built using:
+
+1. Python
+2. Telegram Bot API
+3. BotFather (for API token)
+
+Features:
+
+1. Responds to user queries
+2. Provides laptop recommendations
+3. Handles unknown queries with fallback responses
+
+-Evaluation
+
+Testing was conducted using:
+
+10 sample queries
+
+Results:
+
+8 correct responses
+
+2 incorrect responses
+
+Return recommendation via chatbot
