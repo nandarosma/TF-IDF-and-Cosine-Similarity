@@ -12,7 +12,7 @@ It leverages:
 TF-IDF → to represent user queries and laptop specifications
 Cosine Similarity → to find the most relevant laptop
 
-The system achieves ~80% accuracy in answering user queries.
+The system achieves 80% accuracy in answering user queries.
 
 -Key Features
 1. Telegram-based chatbot interface
@@ -90,3 +90,7 @@ Results:
 2 incorrect responses
 
 Return recommendation via chatbot
+
+![Pickup by Hour](Conceptual_Framework.png)
+
+![Pickup by Hour](Conceptual_Framework.png)
