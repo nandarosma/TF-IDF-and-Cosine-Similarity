@@ -22,3 +22,5 @@ The system achieves ~80% accuracy in answering user queries.
 5. Fallback response for unknown queries
 
 -How It Works
+![Pickup by Hour](Conceptual_Framework.png)
+
