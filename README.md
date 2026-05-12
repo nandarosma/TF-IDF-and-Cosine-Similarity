@@ -91,6 +91,6 @@ Results:
 
 Return recommendation via chatbot
 
-![Pickup by Hour](Conceptual_Framework.png)
+![Pickup by Hour](Chatbot1.png)
 
-![Pickup by Hour](Conceptual_Framework.png)
+![Pickup by Hour](Chatbot2.png)
