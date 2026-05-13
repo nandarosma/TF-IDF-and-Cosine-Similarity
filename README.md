@@ -5,14 +5,13 @@ TF-IDF & Cosine Similarity powered Telegram Bot
 
 -Overview
 
-This project is a Laptop Recommendation System implemented as a Telegram chatbot using Natural Language Processing techniques.
+This project is a **Laptop Recommendation System** implemented as a Telegram chatbot using Natural Language Processing (NLP) techniques.
 
 It leverages:
+- **TF-IDF (Term Frequency–Inverse Document Frequency)** to represent user queries and laptop specifications  
+- **Cosine Similarity** to identify the most relevant laptop based on user input  
 
-TF-IDF → to represent user queries and laptop specifications
-Cosine Similarity → to find the most relevant laptop
-
-The system achieves 80% accuracy in answering user queries.
+The system achieves an accuracy of approximately **80%** in answering user queries.
 
 -Key Features
 1. Telegram-based chatbot interface
@@ -29,11 +28,15 @@ Python, Pandas, Scikit-learn, NLTK, Telegram Bot API
 
 ![Pickup by Hour](Conceptual_Framework.png)
 
+The system processes user queries and matches them with laptop data using similarity measurement.
+
 -Dataset
+
+Dataset Link: https://www.kaggle.com/code/markmedhat/laptop-price-data-analysis/comments#2838660-
 
 Source: Kaggle
 
-https://www.kaggle.com/code/markmedhat/laptop-price-data-analysis/comments#2838660-
+Dataset: Laptop Price Dataset
 
 Total Records: 1303 laptops
 
@@ -86,11 +89,14 @@ Testing was conducted using:
 Results:
 
 8 correct responses
-
 2 incorrect responses
 
-Return recommendation via chatbot
+Accuracy: 80%
 
 ![Pickup by Hour](Chatbot1.png)
 
 ![Pickup by Hour](Chatbot2.png)
+
+-Notes
+
+This project demonstrates the implementation of basic NLP techniques for building a recommendation system using a chatbot interface.
